@@ -5,16 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contador regressivo</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
 </head>
 <body>
-    <iframe src="https://giphy.com/embed/26tn84fF0eL3c898c"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  <div class="container">
-    <input id="timeInput" type="text" placeholder="00:00" />
-    <button id="startBtn">Iniciar</button>
-    <button id="stopBtn" style="display: none;">Parar</button>
-    <button id="resetBtn">Reiniciar</button>
-    <h1 id="countdown">00:00</h1>
-  </div>
+    <header>
+    <h1>Coffe Time</h1>
+    </header>
+    <div class="container">
+        <div class="countdown-wrapper">
+          <div class="controls">
+            <input id="timeInput" type="text" placeholder="00:00" />
+            <button id="startBtn">Iniciar</button>
+            <button id="stopBtn" style="display: none;">Parar</button>
+            <button id="resetBtn">Reiniciar</button>
+          </div>
+          <h1 id="countdown" class="countdown-display">00:00</h1>
+        </div>
+      <img src="https://i.pinimg.com/originals/03/81/7c/03817c5efae5e84326a5dadd588d2262.gif" alt="GIF">
+      <iframe class="spotify" src="https://open.spotify.com/embed/playlist/10M75TUt3X1qbBhpuEw6el" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
  <script src="script.js"></script>
 </body>
 </html>
